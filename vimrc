@@ -33,11 +33,12 @@ let g:ctrlp_cmd = 'CtrlP'
 
 "general code formating options
 set linebreak
+set nospell
 set nu
 set noexpandtab
-set tabstop=8
-set softtabstop=8
-set shiftwidth=8
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set autoindent
 set hlsearch
 set incsearch
@@ -63,13 +64,13 @@ set grepprg=grep\ -nH\ $*
 let g:tex_flavor='latex'
 
 if has("win32")
-	set guifont=Consolas 18
+	set guifont=Consolas 12
 endif
 if has("unix")
 	if system('uname')=~'Darwin'
-		set guifont=Menlo\ Regular:h18
+		set guifont=Menlo\ Regular:h12
 	else
-		set guifont=Inconsolata\ Medium\ 18
+		set guifont=Inconsolata\ Medium\ 12
 	endif
 endif
 
