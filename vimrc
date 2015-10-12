@@ -33,7 +33,6 @@ let g:ctrlp_cmd = 'CtrlP'
 
 "general code formating options
 set linebreak
-set nospell
 set nu
 set noexpandtab
 set tabstop=4
