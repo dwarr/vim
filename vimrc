@@ -36,15 +36,17 @@ set linebreak
 set nu
 set nowrap
 set noexpandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=8
+set softtabstop=8
+set shiftwidth=8
 set autoindent
 set hlsearch
 set incsearch
 
 "Visible tabs for .py files
+"4 space tabs
 autocmd FileType python set list|set listchars=tab:\|\ |
+autocmd FileType python set ts=4|set sts=4|set sw=4
 
 " Make command line two lines high
 set ch=2
