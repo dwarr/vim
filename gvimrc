@@ -1,5 +1,5 @@
 "Configurations specific to GVIM
-"Use the Solarized dark color scheme
+"Use the desert dark color scheme
 set background=dark "set background=light
 colorscheme desert
 
