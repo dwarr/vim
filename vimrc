@@ -34,6 +34,7 @@ let g:ctrlp_cmd = 'CtrlP'
 "general code formating options
 set linebreak
 set nu
+set nowrap
 set noexpandtab
 set tabstop=4
 set softtabstop=4
@@ -42,6 +43,8 @@ set autoindent
 set hlsearch
 set incsearch
 
+"Visible tabs for .py files
+autocmd FileType python set list|set listchars=tab:\|\ |
 
 " Make command line two lines high
 set ch=2
