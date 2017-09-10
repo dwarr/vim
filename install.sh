@@ -16,6 +16,7 @@ plugins=("https://github.com/ervandew/supertab.git" \
 	"https://github.com/fatih/vim-go" \
 	"https://github.com/editorconfig/editorconfig-vim.git" \
 	"https://github.com/guns/vim-clojure-static" \
+	"https://github.com/tpope/vim-foreplay" \
 )
 
 
